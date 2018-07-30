@@ -1,0 +1,59 @@
+body{background: #f5f5f5; font-family: 'Open Sans', sans-serif !important;}
+.logo{display: block; float: left;}
+.logo img{width: 150px}
+header{padding: 10px 0; position: fixed; width: 100%; z-index: 2; background: #fff;}
+.menu{padding: 0; list-style: none; float: right; margin-top: 10px}
+.menu li{float: left; margin-left: 70px}
+.menu li a{font-size: 12px ;font-weight: 600;color: #2e368f}
+.botonazul{background: #00abc7;background: #00abc7;color: #fff;padding: 5px 10px;border-radius: 5px;display: block;width: 115px;text-align: center;}
+.botonazul:hover{color: #fff ; text-decoration: none; opacity: 0.9}
+h2.banner{font-size: 52px; color: #323594; font-weight: 700;margin-top: 100px}
+p.banner{color: #3a3a3a; font-size: 18px}
+main{padding-top: 80px}
+.modulo{float: left;width: 100%}
+.banner1{background: url(../img/b1.png); background-position: bottom right; background-repeat: no-repeat;     min-height: 397px;}
+.owl-dots {position: absolute;top: 344px;}
+.owl-theme .owl-dots .owl-dot{outline: none !important}
+.owl-theme .owl-dots .owl-dot span{margin: 5px 3px !important}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #00abc7; }
+#triggermenu{float: right;font-size: 30px; color: #2e368f; display: none}
+.b2{background: url(../img/b2.jpg);min-height: 200px;background-repeat: no-repeat;background-size: cover; padding: 40px 0}
+.b2 h2{color: #fff; font-weight: 700}
+.b2 p{color: #fff;}
+.botonoutline{border: 1px solid #fff;color: #fff;padding: 5px 10px;border-radius: 5px;display: block;width: 130px;text-align: center;}
+.botonoutline:hover{color: #fff; text-decoration: none; opacity: 0.9}
+.cerrarmenu{display: none}
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+		.menu li{margin-left: 40px}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.menu{display: none; position: fixed; top: -10px; left: 0; background: #fff; width: 100%}
+		.menu li{width:100%; padding: 15px 0; text-align: center; margin-left: 0; border-bottom: 1px solid #e4e2e2}
+		.menu li a{font-size: 20px}
+		.menu li a.botonazul{background: none; width: 100%; }
+		.menu li a.botonazul:hover{color: #2e368f }
+		#triggermenu{display: block}
+		.cerrarmenu{text-align: right !important; padding-right: 20px !important; display: block; }
+		#cerrarmenu{font-size: 30px !important}
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }

@@ -1,0 +1,13 @@
+jQuery(document).ready(function($){
+  $(".owl-carousel").owlCarousel({
+  	items:1
+  });
+  $('#triggermenu').click(function(e){
+  	e.preventDefault();
+  	$('.menu').slideDown('fast');
+  });
+  $('#cerrarmenu').click(function(e){
+  	e.preventDefault();
+  	$('.menu').slideUp('fast');
+  })
+});
