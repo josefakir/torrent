@@ -1,0 +1,15 @@
+Home: http://localhost/torrent/index.html
+Nota: http://localhost/torrent/nota.html
+Login mediocs: http://localhost/torrent/login-medicos.html
+home productos: http://localhost/torrent/home-productos.html
+Directorio: http://localhost/torrent/directorio.html
+Cuidadores: http://localhost/torrent/cuidadores.html
+Contacto: http://localhost/torrent/contacto.html
+Aviso de privacidad: http://localhost/torrent/aviso-privacidad.html
+Términos y condiciones: http://localhost/torrent/terminos-y-condiciones.html
+Home Médicos
+Pacientes
+Padecimientos http://localhost/torrent/padecimientos.html
+Perfil Médico
+Términos y condiciones
+Tu vida en color
