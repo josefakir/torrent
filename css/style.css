@@ -23,6 +23,14 @@ main{padding-top: 80px}
 .botonoutline{border: 1px solid #fff;color: #fff;padding: 5px 10px;border-radius: 5px;display: block;width: 130px;text-align: center;}
 .botonoutline:hover{color: #fff; text-decoration: none; opacity: 0.9}
 .cerrarmenu{display: none}
+.opcion{position: relative; width: 100%;}
+.opcion .imgback{width: 100%;position: absolute;}
+.opcion .imgicon{width: 100%;position: absolute;}
+.opcion a{color: #fff; text-decoration: none}
+.opcion h3{position: absolute;top: 90px;color: #fff;text-align: center;display: block;}
+.opcion p.tac{position: absolute;width: 100%;margin-top: 40px;}
+.p40{padding: 40px 0}
+.tac{text-align: center}
  /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
