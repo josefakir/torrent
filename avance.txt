@@ -8,7 +8,7 @@ Contacto: http://localhost/torrent/contacto.html
 Aviso de privacidad: http://localhost/torrent/aviso-privacidad.html
 Términos y condiciones: http://localhost/torrent/terminos-y-condiciones.html
 Home Médicos
-Pacientes
+Pacientes http://localhost/torrent/pacientes.html
 Padecimientos http://localhost/torrent/padecimientos.html
 Perfil Médico
 Términos y condiciones

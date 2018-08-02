@@ -94,7 +94,8 @@ input.form-control{border-right-color: rgb(206, 212, 218);border-left: 0}
 article img{width: 100%; margin-bottom: 20px}
 .relacionadas .imgNota{width: 100% !important}
 .relacionadas .txtNota{width: 100% !important}
-article a,h1,h2,h3,h4,h5,h6{color: #2e368f !important}
+article a,article h1,article h2,article h3,article h4,article h5,article h6{color: #2e368f !important}
+.w50{width: 49%; float: left;}
 
  /*==========  Non-Mobile First Method  ==========*/
 
@@ -112,6 +113,10 @@ article a,h1,h2,h3,h4,h5,h6{color: #2e368f !important}
 		.imgNota{width: 100%}
 		.txtNota{width: 100%}
 		.boton_padecimiento{display: block;margin:10px auto; float: none}
+		.w50{width: 100%}
+		.w50 .boton_padecimiento{margin: 20px auto !important; display: block !important;}
+		.w50 p{text-align: center;}
+		.w50 .leermas{text-align: center;width: 100%; display: block}
     }
 
     /* Small Devices, Tablets */
