@@ -96,7 +96,29 @@ article img{width: 100%; margin-bottom: 20px}
 .relacionadas .txtNota{width: 100% !important}
 article a,article h1,article h2,article h3,article h4,article h5,article h6{color: #2e368f !important}
 .w50{width: 49%; float: left;}
-
+img.perfilmedico {
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.estudio{width: 31%; margin: 1%; float: left;}
+.contactlist{list-style: none; padding:0}
+.color {
+    background: url(../img/back_color.jpg);
+    min-height: 400px;
+    position: relative;
+    background-size: cover;
+}
+.medicos {
+    background: url(../img/back_medicos.jpg);
+    min-height: 400px;
+    position: relative;
+    background-size: cover;
+}
+.color a{color: #fff !important; }
+.medicos a{color: #fff !important; }
+.tituloheader h1{color: #fff;}
+.tituloheader p{color: #fff;}
+.fl{float: left;}
  /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
@@ -132,6 +154,7 @@ article a,article h1,article h2,article h3,article h4,article h5,article h6{colo
 		.opcion{margin: 20px 0}
 		.opcion h3{font-size: 28px; top: 180px; width: 100%; text-align: center;}
 		.opcion p.tac{top: 90px;}
+		.estudio{width: 100%; margin: 20px 0}
     }
 
     /* Extra Small Devices, Phones */ 
